@@ -1,8 +1,6 @@
 <div align="center">
 
-![MSoftech](https://img.shields.io/badge/MSoftech-0e1f35?style=for-the-badge)
-![AI Solutions Engineering Lead](https://img.shields.io/badge/AI_Solutions_Engineering_Lead-1e3a5f?style=for-the-badge)
-![U.S. Remote Ready](https://img.shields.io/badge/U.S._Remote_Ready-1a6b4a?style=for-the-badge)
+`MSoftech` `AI Solutions Engineering Lead` `U.S. Remote Ready`
 
 # Min Jung Park
 
@@ -11,7 +9,9 @@
 Most engineers can build what you describe.
 We figure out what you *should* be building — then build it.
 
-🌐 [minjungpark.github.io](https://minjungpark.github.io) · 💼 [LinkedIn](https://linkedin.com/in/minjungpark1218) · ✉️ [minjung2623@gmail.com](mailto:minjung2623@gmail.com)
+[![Portfolio](https://img.shields.io/badge/🌐_View_Full_Portfolio-0e1f35?style=for-the-badge)](https://minjungpark.github.io)
+
+✉️ [minjung2623@gmail.com](mailto:minjung2623@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/minjungpark1218)
 
 </div>
 
@@ -21,10 +21,7 @@ We figure out what you *should* be building — then build it.
 
 MSoftech is a boutique AI engineering studio — a **senior-only team of two** that handles everything from domain analysis to production deployment. No layers between you and the engineers who build your system.
 
-![AI Agent Orchestration](https://img.shields.io/badge/AI_Agent_Orchestration-0e1f35?style=flat-square)
-![End-to-End Delivery](https://img.shields.io/badge/End--to--End_Delivery-0e1f35?style=flat-square)
-![Domain-First Engineering](https://img.shields.io/badge/Domain--First_Engineering-0e1f35?style=flat-square)
-![Proven U.S. Remote](https://img.shields.io/badge/Proven_U.S._Remote-0e1f35?style=flat-square)
+`AI Agent Orchestration` `End-to-End Delivery` `Domain-First Engineering` `Proven U.S. Remote`
 
 ---
 
@@ -56,11 +53,7 @@ MSoftech is a boutique AI engineering studio — a **senior-only team of two** t
 
 A production-grade pipeline built from scratch — not a wrapper around existing tools.
 
-![Prompt Registry](https://img.shields.io/badge/Prompt_Registry-0e1f35?style=flat-square)
-![Schema Validation](https://img.shields.io/badge/Schema_Validation-0e1f35?style=flat-square)
-![Multi-Provider LLM](https://img.shields.io/badge/Multi--Provider_LLM-0e1f35?style=flat-square)
-![Agent Ops Logging](https://img.shields.io/badge/Agent_Ops_Logging-0e1f35?style=flat-square)
-![FHIR R4 Persistence](https://img.shields.io/badge/FHIR_R4_Persistence-0e1f35?style=flat-square)
+`Prompt Registry` · `Schema Validation` · `Multi-Provider LLM` · `Agent Ops Logging` · `FHIR R4 Persistence`
 
 Google Gemini 2.5 + OpenAI GPT-4 — runtime-selectable, unified interface.
 
@@ -68,14 +61,7 @@ Google Gemini 2.5 + OpenAI GPT-4 — runtime-selectable, unified interface.
 
 ### Tech Stack
 
-![Java](https://img.shields.io/badge/Java-1e3a5f?style=for-the-badge)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-1e3a5f?style=for-the-badge)
-![React](https://img.shields.io/badge/React-1e3a5f?style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/TypeScript-1e3a5f?style=for-the-badge)
-![Flutter](https://img.shields.io/badge/Flutter-1e3a5f?style=for-the-badge)
-![GCP](https://img.shields.io/badge/GCP-1e3a5f?style=for-the-badge)
-![AWS](https://img.shields.io/badge/AWS-1e3a5f?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1e3a5f?style=for-the-badge)
+`Java` `Spring Boot` `React` `TypeScript` `Flutter` `GCP` `AWS` `PostgreSQL`
 
 ---
 
