@@ -44,10 +44,7 @@ We don't start with code — we start with your domain. Every engagement follows
 
 ```mermaid
 graph LR
-    A[Domain\nDeep-Dive] --> B[Architecture\nDesign]
-    B --> C[Build +\nDaily Deploy]
-    C --> D[Validate +\nDeliver]
-    D --> E[Full\nHandover]
+    A[Domain Analysis] --> B[Architecture] --> C[Build + Deploy] --> D[Validate] --> E[Handover]
     style A fill:#0e1f35,stroke:#1e3a5f,color:#fff
     style B fill:#0e1f35,stroke:#1e3a5f,color:#fff
     style C fill:#0e1f35,stroke:#1e3a5f,color:#fff
