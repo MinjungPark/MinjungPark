@@ -1,3 +1,4 @@
+
 <div align="center">
 
 `MSoftech` `AI Solutions Engineering Lead` `U.S. Remote Ready`
@@ -11,7 +12,7 @@ We figure out what you *should* be building — then build it.
 
 [![Portfolio](https://img.shields.io/badge/🌐_View_Full_Portfolio-0e1f35?style=for-the-badge)](https://minjungpark.github.io)
 
-✉️ [minjung2623@gmail.com](mailto:minjung2623@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/minjungpark1218)
+[![Email](https://img.shields.io/badge/✉️_minjung2623@gmail.com-1e3a5f?style=flat-square)](mailto:minjung2623@gmail.com) [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-1e3a5f?style=flat-square)](https://linkedin.com/in/minjungpark1218)
 
 </div>
 
@@ -37,6 +38,27 @@ MSoftech is a boutique AI engineering studio — a **senior-only team of two** t
 
 ---
 
+### How We Approach a Project
+
+We don't start with code — we start with your domain. Every engagement follows the same structured process, regardless of industry.
+
+```mermaid
+graph LR
+    A[🔍 Domain\nDeep-Dive] --> B[📐 Architecture\nDesign]
+    B --> C[⚙️ Build +\nDaily Deploy]
+    C --> D[✅ Validate +\nDeliver]
+    D --> E[📦 Full\nHandover]
+    style A fill:#0e1f35,stroke:#1e3a5f,color:#fff
+    style B fill:#0e1f35,stroke:#1e3a5f,color:#fff
+    style C fill:#0e1f35,stroke:#1e3a5f,color:#fff
+    style D fill:#0e1f35,stroke:#1e3a5f,color:#fff
+    style E fill:#0e1f35,stroke:#1e3a5f,color:#fff
+```
+
+> *"Most engineers ask 'how should this be coded?' We ask 'how should this be designed?' — then code it ourselves."*
+
+---
+
 ### Production Systems
 
 | Project | What It Does | Stack |
@@ -57,11 +79,35 @@ A production-grade pipeline built from scratch — not a wrapper around existing
 
 Google Gemini 2.5 + OpenAI GPT-4 — runtime-selectable, unified interface.
 
----
+**Clinical Nursing EMR — 6-Agent Evaluation Architecture:**
 
-### Tech Stack
-
-`Java` `Spring Boot` `React` `TypeScript` `Flutter` `GCP` `AWS` `PostgreSQL`
+```mermaid
+graph TB
+    A["Student Input (FHIR R4)"]
+    B[Agent Orchestrator]
+    A --> B
+    B --> C1[ActionLog]
+    B --> C2[Initial Assessment]
+    B --> C3[V/S]
+    C1 --> D[Auto Evaluation Result]
+    C2 --> D
+    C3 --> D
+    B --> C4[I/O]
+    B --> C5[Medication]
+    B --> C6[Nursing Note]
+    C4 --> D
+    C5 --> D
+    C6 --> D
+    style A fill:#1e3a5f,stroke:#1e3a5f,color:#fff
+    style B fill:#0e1f35,stroke:#0e1f35,color:#fff
+    style C1 fill:#fff,stroke:#1e3a5f,color:#0e1f35
+    style C2 fill:#fff,stroke:#1e3a5f,color:#0e1f35
+    style C3 fill:#fff,stroke:#1e3a5f,color:#0e1f35
+    style C4 fill:#fff,stroke:#1e3a5f,color:#0e1f35
+    style C5 fill:#fff,stroke:#1e3a5f,color:#0e1f35
+    style C6 fill:#fff,stroke:#1e3a5f,color:#0e1f35
+    style D fill:#1a6b4a,stroke:#1a6b4a,color:#fff
+```
 
 ---
 
@@ -69,10 +115,3 @@ Google Gemini 2.5 + OpenAI GPT-4 — runtime-selectable, unified interface.
 
 We engage in **fixed-scope projects**, **monthly retainers**, and **full-time remote contracts**.
 All engagements start with an NDA. Either party can exit with 30 days' notice.
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/View_Full_Portfolio-0e1f35?style=for-the-badge)](https://minjungpark.github.io)
-[![Email](https://img.shields.io/badge/Get_in_Touch-1e3a5f?style=for-the-badge)](mailto:minjung2623@gmail.com)
-
-</div>
