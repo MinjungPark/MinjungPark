@@ -10,7 +10,7 @@
 Most engineers can build what you describe.
 We figure out what you *should* be building — then build it.
 
-[![Portfolio](https://img.shields.io/badge/View_Full_Portfolio-0e1f35?style=for-the-badge)](https://minjungpark.github.io) [![Email](https://img.shields.io/badge/Email-1e3a5f?style=for-the-badge)](mailto:minjung2623@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-1e3a5f?style=for-the-badge)](https://linkedin.com/in/minjungpark1218)
+[![Portfolio](https://img.shields.io/badge/View_Full_Portfolio-2563eb?style=for-the-badge)](https://minjungpark.github.io) [![Email](https://img.shields.io/badge/Email-1e3a5f?style=for-the-badge)](mailto:minjung2623@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-1e3a5f?style=for-the-badge)](https://linkedin.com/in/minjungpark1218)
 
 </div>
 
