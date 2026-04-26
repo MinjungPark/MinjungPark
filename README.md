@@ -57,13 +57,13 @@ graph LR
 
 | Project | What It Does | Stack |
 |---|---|---|
+| **Samsung SDS America** | IT Device Service Management System. 3.5-year fully remote engagement | `Full-Stack` · `U.S. EST` · `JIRA` · `Confluence` |
 | **Clinical Nursing EMR** | AI nursing education platform. 6 agents, 55 evaluation criteria, 90% grading accuracy | `React 18` · `Spring Boot` · `Vertex AI` · `FHIR R4` |
 | **FHIR EMR** | KR Core FHIR R4-compliant EMR. 7 resources, full clinical workflow | `React` · `FHIR R4` · `Spring Boot` · `HAPI FHIR` |
 | **My Health Coach** | AI health management app. 5 chronic conditions, 4 agents, FHIR R4 backend | `Flutter` · `Multi-Provider AI` · `FHIR R4` |
 | **AI AquaLab** | B2B water quality analysis. 4 agents, 56 inspection criteria, branding strategy reports | `React 18` · `Vertex AI` · `Spring Boot` · `PostgreSQL` |
 | **AI Geological Analysis** | Hot spring feasibility assessment. AI grading (A+~D), 6-factor risk analysis, 1.5km depth | `React 18` · `Vertex AI` · `Spring Boot` · `KIGAM DB` |
 | **Hydro Simulation Platform** | Integrated groundwater & hot spring simulation. 6 modules, 466 hot spring records, KDS compliance | `React 18` · `TypeScript` · `Spring Boot` · `Naver Maps` |
-| **Samsung SDS America** | IT Device Service Management System. 3.5-year fully remote engagement | `Full-Stack` · `U.S. EST` · `JIRA` · `Confluence` |
 
 ---
 
