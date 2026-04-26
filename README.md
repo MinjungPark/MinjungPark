@@ -1,4 +1,3 @@
-
 <div align="center">
 
 `MSoftech` `AI Solutions Engineering Lead` `U.S. Remote Ready`
@@ -28,7 +27,7 @@ MSoftech is a boutique AI engineering studio — a **senior-only team of two** t
 
 🔹 **AI Agent Orchestration** — Multi-agent LLM pipelines in production, not demos. 14+ agents across healthcare, environmental science, and enterprise systems.
 
-🔹 **Domain-First Engineering** — We absorb your industry before writing a line of code. Healthcare (FHIR R4), geological analysis, manufacturing quality — we've done it.
+🔹 **Domain-First Engineering** — We absorb your industry before writing a line of code. Healthcare (FHIR R4), geological analysis, water quality, manufacturing quality — we've done it.
 
 🔹 **End-to-End Delivery** — Architecture, development, deployment, documentation, handover. Your project keeps moving while you're offline.
 
@@ -58,11 +57,13 @@ graph LR
 
 | Project | What It Does | Stack |
 |---|---|---|
-| **Clinical Nursing EMR** | AI nursing education platform. 6 agents, 55 criteria, 90% accuracy | `React 18` · `Spring Boot` · `Vertex AI` · `FHIR R4` |
-| **FHIR EMR** | Complete KR Core FHIR R4-based EMR. 7 resources, full clinical workflow | `React` · `FHIR R4` · `Spring Boot` · `HAPI FHIR` |
-| **My Health Coach** | AI health app. 5 chronic conditions, 4 agents, 22 prompt templates | `Flutter` · `GPT-4` · `Gemini` · `FHIR R4` |
-| **AI AquaLab** | Groundwater quality analysis. 4 agents, 56 criteria | `React 18` · `Vertex AI` · `Spring Boot` · `PostgreSQL` |
-| **Samsung SDS America** | IT Service Management System. 3.5-year remote engagement | `Full-Stack` · `U.S. EST` · `3.5 Years` |
+| **Clinical Nursing EMR** | AI nursing education platform. 6 agents, 55 evaluation criteria, 90% grading accuracy | `React 18` · `Spring Boot` · `Vertex AI` · `FHIR R4` |
+| **FHIR EMR** | KR Core FHIR R4-compliant EMR. 7 resources, full clinical workflow | `React` · `FHIR R4` · `Spring Boot` · `HAPI FHIR` |
+| **My Health Coach** | AI health management app. 5 chronic conditions, 4 agents, FHIR R4 backend | `Flutter` · `Multi-Provider AI` · `FHIR R4` |
+| **AI AquaLab** | B2B water quality analysis. 4 agents, 56 inspection criteria, branding strategy reports | `React 18` · `Vertex AI` · `Spring Boot` · `PostgreSQL` |
+| **AI Geological Analysis** | Hot spring feasibility assessment. AI grading (A+~D), 6-factor risk analysis, 1.5km depth | `React 18` · `Vertex AI` · `Spring Boot` · `KIGAM DB` |
+| **Hydro Simulation Platform** | Integrated groundwater & hot spring simulation. 6 modules, 466 hot spring records, KDS compliance | `React 18` · `TypeScript` · `Spring Boot` · `Naver Maps` |
+| **Samsung SDS America** | IT Device Service Management System. 3.5-year fully remote engagement | `Full-Stack` · `U.S. EST` · `JIRA` · `Confluence` |
 
 ---
 
@@ -72,7 +73,7 @@ A production-grade pipeline built from scratch — not a wrapper around existing
 
 `Prompt Registry` · `Schema Validation` · `Multi-Provider LLM` · `Agent Ops Logging` · `FHIR R4 Persistence`
 
-Google Gemini 2.5 + OpenAI GPT-4 — runtime-selectable, unified interface.
+Google Gemini + OpenAI GPT — runtime-selectable, unified interface.
 
 **Clinical Nursing EMR — 6-Agent Evaluation Architecture:**
 
