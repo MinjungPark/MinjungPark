@@ -84,7 +84,7 @@ Every agent — whether it analyzes nursing performance or evaluates geological 
 
 ```mermaid
 graph LR
-    A["① Request\nIntake"] --> B["② Prompt\nGeneration"] --> C["③ LLM\nCall"] --> D["④ Schema\nValidation"] --> E["⑤ Result\nDelivery"]
+    A["Request Intake"] --> B["Prompt Generation"] --> C["LLM Call"] --> D["Schema Validation"] --> E["Result Delivery"]
     style A fill:#0e1f35,stroke:#1e3a5f,color:#fff
     style B fill:#0e1f35,stroke:#1e3a5f,color:#fff
     style C fill:#0e1f35,stroke:#1e3a5f,color:#fff
@@ -92,11 +92,15 @@ graph LR
     style E fill:#0e1f35,stroke:#1e3a5f,color:#fff
 ```
 
-- **① Request Intake** — Client sends data + request context
-- **② Prompt Generation** — Registry lookup → Template retrieval → Live data injection into placeholders
-- **③ LLM Call** — Multi-provider routing (Gemini / GPT), runtime-selectable without code changes
-- **④ Schema Validation** — JSON Schema draft-07 enforcement. Required fields, type validation, `$ref`/`$defs` component reuse. Failed outputs never reach the client
-- **⑤ Result Delivery** — Validated, schema-compliant data mapped to DTO → client application
+① **Request Intake** — Client sends data + request context
+
+② **Prompt Generation** — Registry lookup → Template retrieval → Live data injection into placeholders
+
+③ **LLM Call** — Multi-provider routing (Gemini / GPT), runtime-selectable without code changes
+
+④ **Schema Validation** — JSON Schema draft-07 enforcement. Required fields, type validation, `$ref`/`$defs` component reuse. Failed outputs never reach the client
+
+⑤ **Result Delivery** — Validated, schema-compliant data mapped to DTO → client application
 
 #### 3-Artifact Architecture
 
