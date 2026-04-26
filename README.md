@@ -78,7 +78,7 @@ Not just an LLM wrapper — a **production-grade agent lifecycle management plat
 | **Schema Validation** | 100% — AI output always matches predefined JSON Schema |
 | **LLM Providers** | Google Gemini + OpenAI GPT — runtime-selectable, unified interface |
 
-#### 5-Stage Core Pipeline
+### 5-Stage Core Pipeline
 
 Every agent — whether it analyzes nursing performance or evaluates geological risk — runs through the same pipeline:
 
@@ -102,7 +102,7 @@ graph LR
 
 ⑤ **Result Delivery** — Validated, schema-compliant data mapped to DTO → client application
 
-#### 3-Artifact Architecture
+### 3-Artifact Architecture
 
 The platform solves the gap between what LLMs produce (free-form text) and what applications need (structured JSON):
 
@@ -112,7 +112,7 @@ The platform solves the gap between what LLMs produce (free-form text) and what 
 | **Prompt Template** | Agent behavioral spec — strict 5-section format: `MISSION → CONTEXT → RULES → Analysis Guidelines → DATA & FORMAT`. Placeholders receive live data at runtime |
 | **Output Schema** | Contract for AI output — JSON Schema draft-07 with `$ref`/`$defs` for component reuse. Guarantees structural consistency across all agents |
 
-#### Live Broadcast Mode
+### Live Broadcast Mode
 
 Every pipeline stage is streamed in real time — showing exactly which prompt template was used, how data was injected, what the LLM received, and whether the output passed schema validation. AI behavior is fully traceable and auditable.
 
