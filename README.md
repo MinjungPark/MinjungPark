@@ -69,41 +69,48 @@ graph LR
 
 ### Core Technology — AI Agent Orchestration Platform
 
-A production-grade pipeline built from scratch — not a wrapper around existing tools.
+Not just an LLM wrapper — a **production-grade agent lifecycle management platform** that enforces accuracy, consistency, and full observability across every AI agent, regardless of domain.
 
-`Prompt Registry` · `Schema Validation` · `Multi-Provider LLM` · `Agent Ops Logging` · `FHIR R4 Persistence`
+| | |
+|---|---|
+| **Agents in Production** | 14+ across 3 domains (Healthcare · Geological · Water Quality) |
+| **Pipeline Stages** | 5-stage standardized pipeline |
+| **Schema Validation** | 100% — AI output always matches predefined JSON Schema |
+| **LLM Providers** | Google Gemini + OpenAI GPT — runtime-selectable, unified interface |
 
-Google Gemini + OpenAI GPT — runtime-selectable, unified interface.
+#### 5-Stage Core Pipeline
 
-**Clinical Nursing EMR — 6-Agent Evaluation Architecture:**
+Every agent — whether it analyzes nursing performance or evaluates geological risk — runs through the same pipeline:
 
 ```mermaid
-graph TB
-    A["Student Input (FHIR R4)"]
-    B[Agent Orchestrator]
-    A --> B
-    B --> C1[ActionLog]
-    B --> C2[Initial Assessment]
-    B --> C3[V/S]
-    C1 --> D[Auto Evaluation Result]
-    C2 --> D
-    C3 --> D
-    B --> C4[I/O]
-    B --> C5[Medication]
-    B --> C6[Nursing Note]
-    C4 --> D
-    C5 --> D
-    C6 --> D
-    style A fill:#1e3a5f,stroke:#1e3a5f,color:#fff
-    style B fill:#0e1f35,stroke:#0e1f35,color:#fff
-    style C1 fill:#fff,stroke:#1e3a5f,color:#0e1f35
-    style C2 fill:#fff,stroke:#1e3a5f,color:#0e1f35
-    style C3 fill:#fff,stroke:#1e3a5f,color:#0e1f35
-    style C4 fill:#fff,stroke:#1e3a5f,color:#0e1f35
-    style C5 fill:#fff,stroke:#1e3a5f,color:#0e1f35
-    style C6 fill:#fff,stroke:#1e3a5f,color:#0e1f35
-    style D fill:#1a6b4a,stroke:#1a6b4a,color:#fff
+graph LR
+    A["① Request\nIntake"] --> B["② Prompt\nGeneration"] --> C["③ LLM\nCall"] --> D["④ Schema\nValidation"] --> E["⑤ Result\nDelivery"]
+    style A fill:#0e1f35,stroke:#1e3a5f,color:#fff
+    style B fill:#0e1f35,stroke:#1e3a5f,color:#fff
+    style C fill:#0e1f35,stroke:#1e3a5f,color:#fff
+    style D fill:#034EA2,stroke:#034EA2,color:#fff
+    style E fill:#0e1f35,stroke:#1e3a5f,color:#fff
 ```
+
+- **① Request Intake** — Client sends data + request context
+- **② Prompt Generation** — Registry lookup → Template retrieval → Live data injection into placeholders
+- **③ LLM Call** — Multi-provider routing (Gemini / GPT), runtime-selectable without code changes
+- **④ Schema Validation** — JSON Schema draft-07 enforcement. Required fields, type validation, `$ref`/`$defs` component reuse. Failed outputs never reach the client
+- **⑤ Result Delivery** — Validated, schema-compliant data mapped to DTO → client application
+
+#### 3-Artifact Architecture
+
+The platform solves the gap between what LLMs produce (free-form text) and what applications need (structured JSON):
+
+| Artifact | Role |
+|---|---|
+| **Prompt Registry** | Agent directory — maps each agent to its Template + Schema, manages versioning. CI/CD managed, rollback at any time |
+| **Prompt Template** | Agent behavioral spec — strict 5-section format: `MISSION → CONTEXT → RULES → Analysis Guidelines → DATA & FORMAT`. Placeholders receive live data at runtime |
+| **Output Schema** | Contract for AI output — JSON Schema draft-07 with `$ref`/`$defs` for component reuse. Guarantees structural consistency across all agents |
+
+#### Live Broadcast Mode
+
+Every pipeline stage is streamed in real time — showing exactly which prompt template was used, how data was injected, what the LLM received, and whether the output passed schema validation. AI behavior is fully traceable and auditable.
 
 ---
 
